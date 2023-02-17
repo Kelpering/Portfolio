@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="../assets/style.css">
 </head>
-<body>
+<body class="bg-black">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
         <div class="container-fluid">
             <ul class="navbar-nav">
@@ -27,9 +27,9 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid main">
 
-        <div class="container mt-5 p-1 border border-5 border-success rounded">
+        <div class="container mt-5 p-1 border border-5 border-success rounded bg-dark text-light">
             <div class="container p-2">
                 <img id="selfimg" class="rounded float-start img-fluid" src="https://via.placeholder.com/250" width="200">
             </div>
@@ -43,24 +43,47 @@
         <!-- Make a scrolling page with About, Programming skill, (?),Contact -->
 
 
-        <div class="container-fluuid">
-            <div class="container-fluid border border-5 border-primary rounded">
-                <img id="selfimg" class="rounded float-start img-fluid" src="https://via.placeholder.com/250" width="200">
-                <p>test</p>
-                <!-- <img> takes up entire height of the container, expand when necessary -->
+        <div class="container-fluid">
+            <div class="container-fluid float-start border border-5 border-primary rounded mt-5 bg-dark p-0 codeSegment">
+                <img id="selfimg" class=" img-fluid float-start" src="https://via.placeholder.com/250" width="250">
+                <h1 class="text-white">HTML</h1>
+                <p class="text-white">test</p>
             </div>
 
-            <div class="container-fluid">
-                
+            <div class="container-fluid float-start border border-5 border-primary rounded mt-5 bg-dark p-0 codeSegment">
+                <img id="selfimg" class=" img-fluid float-start" src="https://via.placeholder.com/250" width="250">
+                <h1 class="text-white">HTML</h1>
+                <p class="text-white">test</p>
             </div>
 
-            <div class="container-fluid">
-                
+            <div class="container-fluid float-start border border-5 border-primary rounded mt-5 bg-dark p-0 codeSegment">
+                <img id="selfimg" class=" img-fluid float-start" src="https://via.placeholder.com/250" width="250">
+                <h1 class="text-white">HTML</h1>
+                <p class="text-white">test</p>
             </div>
+
+            
         </div>
+        
         <!-- Div of divs, each segment containing a picture of a programming language, name at the top, my skill in it, and extra info -->
-
+        
         <script src="./script.js"></script>
     </div>
+    <footer class="container-fluid font-small bg-dark text-light border-primary border-top border-5 mt-2">
+        
+        
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <h1>Footer</h1>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Home/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Projects/projects.html">Projects</a>
+                </li>
+            </ul>
+        </div>
+        <p>Copyright © 2023 Tristan Miranda. All Rights Reserved</p>
+    </footer>
 </body>
 </html>
